@@ -44,11 +44,13 @@ export const sendEmail = async (formData: FormData) => {
             to: 'bhanutankasala26@gmail.com',
             replyTo: senderEmail,
             subject: 'Message from Contact Form',
-            react: React.createElement(ContactFormEmail,  {message: message, senderEmail:  senderEmail })
-        })
-} catch (error: unknown) {
-    getErrorMessage(error)
-}
+            react: React.createElement(ContactFormEmail, { message, senderEmail }),
+        });
+    } catch (error) {
+        console.error('Email send failed:', error);
+        return { error: 'Failed to send email, please try again later.' };  // Optional user feedback
+    }
+
 
 
 }
