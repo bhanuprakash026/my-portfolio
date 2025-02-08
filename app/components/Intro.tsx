@@ -57,7 +57,7 @@ const Intro = () => {
         transition={{ delay: 0.2 }}
     >
         <p className="text-2xl font-semibold text-gray-900 dark:text-white">
-            Hello, I'm <span className="text-primary font-bold">Bhanu Prakash Tankasala</span>. 
+            Hello, I&apos;m <span className="text-primary font-bold">Bhanu Prakash Tankasala</span>. 
             A <span className="text-secondary font-bold">Full-Stack Developer</span> with 
             <span className="font-bold"> {calculateDuration("1-05-2023")}</span> of experience.  
         </p>
@@ -84,19 +84,22 @@ const Intro = () => {
             Download Resume <HiDownload />
         </a>
 
-        <a href="https://www.linkedin.com/in/bhanu-prakash-tankasala/" target="_blank" 
+        <a href="https://www.linkedin.com/in/bhanu-prakash-tankasala/" 
+            target="_blank"
+            rel="noreferrer"
             className="bg-blue-600 p-4 text-white flex items-center gap-2 rounded-full text-[1.35rem] hover:scale-110 transition shadow-lg">
             <BsLinkedin />
         </a>
 
-        <a href="https://github.com/bhanuprakash026/" target="_blank" 
+        <a href="https://github.com/bhanuprakash026/" 
+            target="_blank"
+            rel="noreferrer"
             className="bg-gray-800 p-4 text-white flex items-center gap-2 rounded-full text-[1.35rem] hover:scale-110 transition shadow-lg">
             <FaGithubSquare />
         </a>
     </motion.div>
 
 </section>
-
     );
 };
 

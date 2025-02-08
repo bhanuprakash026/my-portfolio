@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useContext } from 'react'
+import React, { useState } from 'react'
 import SectionHeader from './section-heading'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { experiencesData } from '@/lib/data';
