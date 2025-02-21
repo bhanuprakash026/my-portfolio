@@ -15,16 +15,16 @@ const About = () => {
         >
             <SectionHeader>About Me</SectionHeader>
 
-            <div className="flex flex-col md:flex-row md:space-x-8 space-y-6 md:space-y-0">
+            <div className="flex flex-col md:flex-row md:items-center md:space-x-8 space-y-6 md:space-y-0">
                 {/* Image */}
-                <div className="md:w-[50%] flex justify-center">
+                <div className="filter drop-shadow-[20px_20px_20px_rgba(0,0,0,0.3)] md:w-[620px] md:h-[300px] overflow-hidden">
                     <Image
-                        className="object-cover shadow-2xl border-white border-[7px] rounded-3xl"
-                        src="https://res.cloudinary.com/dkmpwjbyo/image/upload/v1738874070/tm9ld1ruuthjfizjzntr.jpg"
+                        className="w-full "
+                        src="/about-laptop.png"
                         priority={true}
                         quality="100"
-                        width="500"
-                        height="750"
+                        width="400"
+                        height="200"
                         alt="my-image"
                     />
                 </div>
