@@ -5,6 +5,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import vidztubeThumbNail from '@/public/vidztubeThumbNail.png'
 import nxttrends_thumbnail from "@/public/nxttrends_thumbnail.png";
+import landingpageThumbnail from "@/public/landingpageThumbnail.png";
 import { SiCypress, SiJest, SiNodedotjs, SiRedux, SiTypescript } from "react-icons/si";
 import { WorkExperience } from "./types";
 
@@ -14,7 +15,7 @@ export const calculateDuration = (startDate: string): string => {
   const start = new Date(year, month - 1, day); // Months are zero-based in JS Date
 
   const now = new Date();
-  
+
   let years = now.getFullYear() - start.getFullYear();
   let months = now.getMonth() - start.getMonth();
 
@@ -54,7 +55,7 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData: WorkExperience[]  = [
+export const experiencesData: WorkExperience[] = [
   {
     title: "B.Tech Mechanical Engineering",
     location: "Mahabubnagar, Sree Visvesvaraya Institute of Technology & Science",
@@ -139,7 +140,20 @@ export const projectsData = [
     ],
     live: "https://bhanunxttrendz.ccbp.tech/login",
     gitHub: "https://github.com/bhanuprakash026/NxtTrendsCartFeature-4-test-cases-f"
-}
+  },
+  {
+    title: "I Global Media Tech | Landing Page",
+    description: "",
+    tags: ["Next.js", "JavaScript", "CSS", "TailwindCSS", "TypeScript", "GSAP", "Swiper.js"],
+    imageUrl: landingpageThumbnail,
+    features: [
+      "Led the architectural design and implementation of the landing page using modern web technologies",
+      "Reduced initial load time by 70% through code splitting, lazy loading, and asset optimization",
+      "Implemented complex 3D animations using Swiper.js",
+    ],
+    live: "https://www.iglobalmediatech.com",
+    gitHub: "https://github.com/bhanuprakash026/iglobal-media-tech-landing-page"
+  }
 
 ] as const;
 export const frontendDevelopmentData = [
@@ -147,7 +161,7 @@ export const frontendDevelopmentData = [
 ]
 
 export const backendDevelopmentData = [
-  "Node.js", "Express.js", "MongoDB","Mongoose", "RestfullAPIs"
+  "Node.js", "Express.js", "MongoDB", "Mongoose", "RestfullAPIs"
 ]
 
 export const toolsAndLibraries = [
