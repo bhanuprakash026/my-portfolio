@@ -5,7 +5,6 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import vidztubeThumbNail from '@/public/vidztubeThumbNail.png'
 import nxttrends_thumbnail from "@/public/nxttrends_thumbnail.png";
-import landingpageThumbnail from "@/public/landingpageThumbnail.png";
 import { SiCypress, SiJest, SiNodedotjs, SiRedux, SiTypescript } from "react-icons/si";
 import { WorkExperience } from "./types";
 
