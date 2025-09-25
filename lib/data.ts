@@ -151,7 +151,7 @@ export const backendDevelopmentData = [
 ]
 
 export const toolsAndLibraries = [
-  "VS Code", "Cypress", "Postman", "Version Control System"
+  "VS Code", "Cypress", "Postman", "Version Control System", "Docker"
 ]
 
 
