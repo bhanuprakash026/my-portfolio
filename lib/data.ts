@@ -141,19 +141,6 @@ export const projectsData = [
     live: "https://bhanunxttrendz.ccbp.tech/login",
     gitHub: "https://github.com/bhanuprakash026/NxtTrendsCartFeature-4-test-cases-f"
   },
-  {
-    title: "I Global Media Tech | Landing Page",
-    description: "",
-    tags: ["Next.js", "JavaScript", "CSS", "TailwindCSS", "TypeScript", "GSAP", "Swiper.js"],
-    imageUrl: landingpageThumbnail,
-    features: [
-      "Led the architectural design and implementation of the landing page using modern web technologies",
-      "Reduced initial load time by 70% through code splitting, lazy loading, and asset optimization",
-      "Implemented complex 3D animations using Swiper.js",
-    ],
-    live: "https://www.iglobalmediatech.com",
-    gitHub: "https://github.com/bhanuprakash026/iglobal-media-tech-landing-page"
-  }
 
 ] as const;
 export const frontendDevelopmentData = [
